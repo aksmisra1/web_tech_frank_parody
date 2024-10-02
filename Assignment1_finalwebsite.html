@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Frank Ocean Discography</title>
+    <title>Frank Ocean: Discography and News</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
@@ -23,6 +23,7 @@
         h2 {
             font-size: 2rem;
             color: #4b4b4b;
+            margin-top: 30px;
         }
 
         p {
@@ -33,9 +34,31 @@
         }
 
         img {
-            width: 150px;
+            width: 100%;
+            max-width: 400px; /* Adjust max-width for a better display */
             height: auto;
             margin-bottom: 20px;
+        }
+
+        table {
+            width: 80%;
+            margin: 40px auto;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        tr:hover {
+            background-color: #f1f1f1;
         }
 
         @media (max-width: 768px) {
@@ -56,15 +79,98 @@
 
 <body>
     <h1>
-        <img src="frank.png" alt="logo"><br>Frank Ocean Discography
+        <img src="frank.png" alt="logo"><br>Frank Ocean Discography & News
     </h1>
 
-    <h2>Nostalgia Ultra</h2>
-    <p>nostalgia, ULTRA by Frank Ocean is a 2011 mixtape blending alternative R&B, soul, and hip-hop, with themes of love, heartbreak, and self-reflection. It features samples from diverse genres and pop culture, showcasing Ocean's storytelling and genre-defying sound.</p>
+    <!-- Discography Section -->
+    <section id="discography">
+        <h2>Nostalgia Ultra</h2>
+        <img src="https://i.scdn.co/image/ab67616d0000b273c5ea481d67824f3c61ff26d7" alt="Nostalgia Ultra Album Cover">
+        <p>
+            nostalgia, ULTRA by Frank Ocean is a 2011 mixtape blending alternative R&B, soul, and hip-hop, with themes of love, heartbreak, and self-reflection.
+        </p>
 
-    <h2>Channel Orange</h2>
-    <p>Channel Orange by Frank Ocean is a 2012 album that explores themes of love, longing, and existential reflection through a mix of R&B, soul, and electronic influences. Known for its rich storytelling and experimental production, the album addresses issues like unrequited love, addiction, and social class.</p>
+        <h2>Channel Orange</h2>
+        <img src="https://i.scdn.co/image/ab67616d0000b273f11f1c4ad183b7fa625f8534" alt="Channel Orange Album Cover">
+        <p>
+            Channel Orange by Frank Ocean is a 2012 album that explores themes of love, longing, and existential reflection through a mix of R&B, soul, and electronic influences.
+        </p>
 
-    <h2>Blond</h2>
-    <p>Blond by Frank Ocean is a 2016 album characterized by its introspective lyrics, minimalist production, and genre-blurring mix of R&B, avant-garde, and ambient influences. It delves into themes of identity, love, and self-discovery, offering a deeply personal and emotional listening experience.</p>
+        <h2>Blond</h2>
+        <img src="https://preview.redd.it/recreation-of-the-blonde-album-cover-in-mspaint-23h-41m-v0-355rqibug3id1.png?width=640&crop=smart&auto=webp&s=fb02a9accf403445e5968b78b575bde7b22f76db" alt="Blond Album Cover">
+        <p>
+            Blond by Frank Ocean is a 2016 album characterized by its introspective lyrics, minimalist production, and genre-blurring mix of R&B, avant-garde, and ambient influences.
+        </p>
+    </section>
+
+    <!-- Concert Dates Section -->
+    <section id="concert-dates">
+        <h2>Frank Ocean Concert Dates</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>City</th>
+                    <th>Venue</th>
+                    <th>Tickets</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>March 15, 2024</td>
+                    <td>Los Angeles, CA</td>
+                    <td>Staples Center</td>
+                    <td><a href="#" style="color: #4CAF50; text-decoration: none;">Buy Now</a></td>
+                </tr>
+                <tr>
+                    <td>April 10, 2024</td>
+                    <td>New York, NY</td>
+                    <td>Madison Square Garden</td>
+                    <td><a href="#" style="color: #4CAF50; text-decoration: none;">Buy Now</a></td>
+                </tr>
+                <tr>
+                    <td>May 5, 2024</td>
+                    <td>Chicago, IL</td>
+                    <td>United Center</td>
+                    <td><a href="#" style="color: #4CAF50; text-decoration: none;">Buy Now</a></td>
+                </tr>
+                <tr>
+                    <td>June 20, 2024</td>
+                    <td>Miami, FL</td>
+                    <td>American Airlines Arena</td>
+                    <td><a href="#" style="color: #4CAF50; text-decoration: none;">Buy Now</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- News Section -->
+    <section id="news">
+        <h2>Frank Ocean News</h2>
+
+        <article>
+            <header>
+                <h3>New Album Announcement: Tidal Dreams</h3>
+                <p>posted by Frank Ocean Team, <time datetime="2024-09-15">September 15, 2024</time></p>
+            </header>
+            <p>Frank Ocean is back! We are thrilled to announce the upcoming release of his latest album, <strong>Tidal Dreams</strong>, set for release in early 2024.</p>
+        </article>
+
+        <article>
+            <header>
+                <h3>Frank Ocean Interview: Flying vs. Teleportation</h3>
+                <p>posted by Frank Ocean Team, <time datetime="2024-10-01">October 1, 2024</time></p>
+            </header>
+            <p>This week, Frank Ocean shared his thoughts on flying and teleportation in a recent interview.</p>
+            <p><q>So, I should say teleportation, but I’m really interested in flying. I’m gonna say teleportation instead. But then it just ruins the joy of flying.</q></p>
+        </article>
+    </section>
+
+    <!-- Footer -->
+    <footer style="margin-top: 40px; text-align: center;">
+        <p>Location: Los Angeles, CA<br></p>
+        <p>Hours: Monday to Friday, <time>10am to 6pm</time></p>
+        <p><small>&copy; 2024, Frank Ocean Official Site</small></p>
+    </footer>
 </body>
+</html>
