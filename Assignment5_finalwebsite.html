@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frank Ocean: Discography and News</title>
+    <!-- Google Fonts Link for "Marko One" -->
+    <link href="https://fonts.googleapis.com/css2?family=Marko+One&display=swap" rel="stylesheet">
+    <!-- Link to the external style sheet -->
+    <link rel="stylesheet" href="menustyles.css">
+</head>
+
+<body>
+    <header>
+        <h1>
+            <img src="frank.png" alt="logo"><br>Frank Ocean Discography & News
+            
+        </h1>
+    </header>
+
+    <!-- Discography Section -->
+    <!-- Discography Section -->
+    <section id="discography-menu">
+        <div>
+            <h2>Nostalgia Ultra</h2>
+            <img src="https://i.scdn.co/image/ab67616d0000b273c5ea481d67824f3c61ff26d7" alt="Nostalgia Ultra Album Cover">
+            <p class="price">$3.95</p>
+            <p>nostalgia, ULTRA by Frank Ocean is a 2011 mixtape blending alternative R&B, soul, and hip-hop, with themes of love, heartbreak, and self-reflection.</p>
+        </div>
+        <div>
+            <h2>Channel Orange</h2>
+            <img src="https://i.scdn.co/image/ab67616d0000b273f11f1c4ad183b7fa625f8534" alt="Channel Orange Album Cover">
+            <p class="price">$12.95</p>
+            <p>Channel Orange by Frank Ocean is a 2012 album that explores themes of love, longing, and existential reflection through a mix of R&B, soul, and electronic influences.</p>
+        </div>
+        <div>
+            <h2>Blond</h2>
+            <img src="https://preview.redd.it/recreation-of-the-blonde-album-cover-in-mspaint-23h-41m-v0-355rqibug3id1.png" alt="Blond Album Cover">
+            <p class="price">$15.95</p>
+            <p>Blond by Frank Ocean is a 2016 album characterized by its introspective lyrics, minimalist production, and genre-blurring mix of R&B, avant-garde, and ambient influences.</p>
+        </div>
+    </section>
+
+
+    <!-- Video Player Section -->
+    <section id="video-player">
+        <h2>Frank Ocean Video Interview</h2>
+        <video width="320" height="262" controls>
+            <source src="frank.mp4" type="video/mp4">
+            <source src="frank.ogv" type="video/ogg">
+            <source src="frank.webm" type="video/webm">
+            Sorry, your browser doesn't support HTML5 video. Here’s a <a href="frank.mp4">link to the video</a>.
+        </video>
+    </section>
+
+    <!-- Concert Dates Section -->
+    <section id="concert-dates">
+        <h2>Frank Ocean Concert Dates</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>City</th>
+                    <th>Venue</th>
+                    <th>Tickets</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>March 15, 2024</td>
+                    <td>Los Angeles, CA</td>
+                    <td>Staples Center</td>
+                    <td><a href="#" style="color: #4CAF50; text-decoration: none;">Buy Now</a></td>
+                </tr>
+                <tr>
+                    <td>April 10, 2024</td>
+                    <td>New York, NY</td>
+                    <td>Madison Square Garden</td>
+                    <td><a href="#" style="color: #4CAF50; text-decoration: none;">Buy Now</a></td>
+                </tr>
+                <tr>
+                    <td>May 5, 2024</td>
+                    <td>Chicago, IL</td>
+                    <td>United Center</td>
+                    <td><a href="#" style="color: #4CAF50; text-decoration: none;">Buy Now</a></td>
+                </tr>
+                <tr>
+                    <td>June 20, 2024</td>
+                    <td>Miami, FL</td>
+                    <td>American Airlines Arena</td>
+                    <td><a href="#" style="color: #4CAF50; text-decoration: none;">Buy Now</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- News Section -->
+    <section id="news">
+        <h2>Frank Ocean News</h2>
+        <article>
+            <header>
+                <h3>New Album Announcement: Tidal Dreams</h3>
+                <p>posted by Frank Ocean Team, <time datetime="2024-09-15">September 15, 2024</time></p>
+            </header>
+            <p>Frank Ocean is back! We are thrilled to announce the upcoming release of his latest album, <strong>Tidal Dreams</strong>, set for release in early 2024.</p>
+        </article>
+
+        <article>
+            <header>
+                <h3>Frank Ocean Interview: Flying vs. Teleportation</h3>
+                <p>posted by Frank Ocean Team, <time datetime="2024-10-01">October 1, 2024</time></p>
+            </header>
+            <p>This week, Frank Ocean shared his thoughts on flying and teleportation in a recent interview.</p>
+            <p><q>So, I should say teleportation, but I’m really interested in flying. I’m gonna say teleportation instead. But then it just ruins the joy of flying.</q></p>
+        </article>
+    </section>
+
+    <!-- Merch Order Form -->
+    <section id="merch-order">
+        <h2>Order Your Frank Ocean Merch</h2>
+        <form action="http://frankoceanmerch.com/order.php" method="POST">
+            <fieldset>
+                <legend>Your Information</legend>
+                <ul>
+                    <li><label for="customername">Name:</label> <input type="text" name="customername" id="customername" required></li>
+                    <li><label for="address">Address:</label> <input type="text" name="address" id="address" required></li>
+                    <li><label for="telephone">Telephone Number:</label> <input type="tel" name="telephone" id="telephone" required></li>
+                    <li><label for="email">Email:</label> <input type="email" name="email" id="email" required></li>
+                </ul>
+            </fieldset>
+
+            <fieldset>
+                <legend>Choose Your Merch</legend>
+                <ul>
+                    <li>
+                        <fieldset>
+                            <legend>Merch Type (Choose one):</legend>
+                            <label><input type="radio" name="merch_type" value="T-Shirt" required> T-Shirt</label>
+                            <label><input type="radio" name="merch_type" value="Hoodie"> Hoodie</label>
+                            <label><input type="radio" name="merch_type" value="Vinyl Record"> Vinyl Record</label>
+                        </fieldset>
+                    </li>
+
+                    <li>
+                        <fieldset>
+                            <legend>Color (Choose one):</legend>
+                            <label><input type="radio" name="color" value="Black" required> Black</label>
+                            <label><input type="radio" name="color" value="White"> White</label>
+                            <label><input type="radio" name="color" value="Blue"> Blue</label>
+                        </fieldset>
+                    </li>
+
+                    <li>
+                        <fieldset>
+                            <legend>Additional Features (Choose as many as you like):</legend>
+                            <label><input type="checkbox" name="features[]" value="Stickers"> Stickers</label>
+                            <label><input type="checkbox" name="features[]" value="Signed Copy"> Signed Copy</label>
+                            <label><input type="checkbox" name="features[]" value="Limited Edition Poster"> Limited Edition Poster</label>
+                        </fieldset>
+                    </li>
+
+                    <li>
+                        <label for="size">Size (T-Shirts & Hoodies Only):</label>
+                        <select name="size" id="size" required>
+                            <option value="Small">Small</option>
+                            <option value="Medium">Medium</option>
+                            <option value="Large">Large</option>
+                            <option value="XL">XL</option>
+                        </select>
+                    </li>
+
+                    <li>
+                        <label for="quantity">How many items would you like to order?</label>
+                        <select name="quantity" id="quantity" size="1">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                        </select>
+                    </li>
+                </ul>
+            </fieldset>
+
+            <p><input type="submit" value="Place Your Order!"> <input type="reset" value="Reset"></p>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer style="margin-top: 40px; text-align: center;">
+        <p>Location: Los Angeles, CA<br></p>
+        <p>Hours: Monday to Friday, <time>10am to 6pm</time></p>
+        <p><small>&copy; 2024, Frank Ocean Official Site</small></p>
+    </footer>
+</body>
+
+</html>
